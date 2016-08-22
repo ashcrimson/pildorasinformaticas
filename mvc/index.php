@@ -18,7 +18,7 @@
 
 <?php
 
-	require_once("controlador/productos_controlador.php");
+	require_once("controlador/personas_controlador.php");
 ?>
 
 </body>
