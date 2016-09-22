@@ -23,16 +23,20 @@
 
 	mysqli_set_charset($conexion, "utf8");
 
-	$consulta="SELECT FOTO FROM PRODUCTOS WHERE CÓDIGOARTÍCULO='AR01'";
+	$consulta="SELECT * FROM PRODUCTOS WHERE CÓDIGOARTÍCULO='AR01'";
 
 	$resultado=mysqli_query($conexion, $consulta);
+
 
 	while ($fila=mysqli_fetch_array($resultado)) {
 		
 		$ruta_img=$fila["FOTO"];
 
 
+
 	}
+
+
 ?>	
 
 <div>
